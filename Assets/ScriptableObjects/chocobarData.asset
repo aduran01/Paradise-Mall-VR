@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbc5e10720dcdb46bd50758a5391033, type: 3}
+  m_Name: chocobarData
+  m_EditorClassIdentifier: 
+  id: candy
+  displayName: Chocomucho bar
+  worldPrefab: {fileID: 4677963264010411712, guid: e51ec66c39913224e8709fca744dc762, type: 3}
+  stackable: 0
+  maxStack: 1
