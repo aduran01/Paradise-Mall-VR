@@ -141,8 +141,7 @@ PlayerSettings:
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -8196854396901781169, guid: 1a4c68ca72a83449f938d669337cb305, type: 2}
-  - {fileID: -64324148185763206, guid: a9a6963505ddf7f4d886008c6dc86122, type: 2}
+  - {fileID: -944628639613478452, guid: da2b439d1a2de5c46a4f428f8cf4fe19, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -152,9 +151,9 @@ PlayerSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
-  enableOpenGLProfilerGPURecorders: 1
-  allowHDRDisplaySupport: 0
-  useHDRDisplay: 0
+  enableOpenGLProfilerGPURecorders: 0
+  allowHDRDisplaySupport: 1
+  useHDRDisplay: 1
   hdrBitDepth: 0
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
@@ -529,7 +528,7 @@ PlayerSettings:
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 15000000
-    m_Automatic: 0
+    m_Automatic: 1
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -558,10 +557,14 @@ PlayerSettings:
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Android
     m_EncodingQuality: 1
-  m_BuildTargetGroupHDRCubemapEncodingQuality: []
+  m_BuildTargetGroupHDRCubemapEncodingQuality:
+  - m_BuildTarget: Android
+    m_EncodingQuality: 1
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
-  m_BuildTargetNormalMapEncoding: []
+  m_BuildTargetNormalMapEncoding:
+  - m_BuildTarget: Android
+    m_Encoding: 0
   m_BuildTargetDefaultTextureCompressionFormat:
   - m_BuildTarget: Android
     m_Format: 3
@@ -831,8 +834,10 @@ PlayerSettings:
     Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2
     PS4: UNITY_POST_PROCESSING_STACK_V2
     PS5: UNITY_POST_PROCESSING_STACK_V2
+    QNX: UNITY_POST_PROCESSING_STACK_V2
     Stadia: UNITY_POST_PROCESSING_STACK_V2
     Standalone: USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_POST_PROCESSING_STACK_V2;USE_STICK_CONTROL_THUMBSTICKS
+    VisionOS: UNITY_POST_PROCESSING_STACK_V2
     WebGL: UNITY_POST_PROCESSING_STACK_V2
     Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_POST_PROCESSING_STACK_V2;USE_STICK_CONTROL_THUMBSTICKS
     XboxOne: UNITY_POST_PROCESSING_STACK_V2
@@ -856,8 +861,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Paradise Mall VR
-  metroPackageVersion: 
+  metroPackageName: ParadiseMallVR
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -865,7 +870,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Paradise Mall VR
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Paradise Mall VR
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

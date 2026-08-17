@@ -70,3 +70,121 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+.plastic/
+ignore.conf
+
+# ============================================================
+# Asset Store EULA-restricted content (not redistributable in
+# a public repo under the Standard Unity Asset Store EULA).
+# Files are kept locally, just excluded from git.
+# ============================================================
+
+# --- Group 1: matched from Asset Store URLs ---
+
+# Grass And Flowers Pack 1 (confirmed) - https://assetstore.unity.com/packages/2d/textures-materials/nature/grass-and-flowers-pack-1-17100
+Assets/Grass And Flowers Pack 1/
+
+# Fresh Shelving (confirmed, folder "Fresh_Raystore") - https://assetstore.unity.com/packages/3d/props/furniture/fresh-shelving-267101
+Assets/Fresh_Raystore/
+
+# French Fries Free (confirmed) - https://assetstore.unity.com/packages/3d/props/food/french-fries-free-164017
+Assets/French Fries Free/
+
+# Free Japanese Mask (likely, folder "Japanese Mask") - https://assetstore.unity.com/packages/3d/props/free-japanese-mask-66432
+Assets/Japanese Mask/
+
+# Dream Forest Tree (confirmed) - https://assetstore.unity.com/packages/3d/vegetation/trees/dream-forest-tree-105297
+Assets/DreamForestTree/
+
+# Children's Wooden Toys Free Train Pack (confirmed) - https://assetstore.unity.com/packages/3d/props/children-s-wooden-toys-free-train-pack-179951
+Assets/ChildrensWoodenToysFreeTrainsPack/
+
+# Book Store Front Free (likely, folder "Book Storefront- FREE") - https://assetstore.unity.com/packages/3d/environments/book-store-front-free-274980
+Assets/Book Storefront- FREE/
+
+# 30 Stylized Textures Free (confirmed, nested under "Billion Mucks") - https://assetstore.unity.com/packages/2d/textures-materials/30-stylized-textures-free-246556
+Assets/Billion Mucks/30 Stylized Textures Free/
+
+# 3D Free Modular Kit (confirmed, nested under "_Barking_Dog") - https://assetstore.unity.com/packages/3d/environments/3d-free-modular-kit-85732
+Assets/_Barking_Dog/3D Free Modular Kit/
+
+# NOTE: Free Sport Balls, DS Arcade Machine, and Arcade Machines PolyPack
+# were found nested inside Saritasa/, danthaigames/, and Alstra Infinite/
+# respectively - already covered by the Group 2 ignores below.
+
+# --- Group 2: confirmed EULA-restricted folders ---
+
+# SyntyStudios (EULA)
+Assets/SyntyStudios/
+
+# RPG Monster DUO PBR Polyart (EULA)
+Assets/RPG Monster DUO PBR Polyart/
+
+# Alstra Infinite (EULA) - includes nested "Arcade Machines - PolyPack"
+Assets/Alstra Infinite/
+
+# Phoenix3D (EULA)
+Assets/Phoenix3D/
+
+# Saritasa (EULA) - includes nested "Sport_Balls" models
+Assets/Saritasa/
+
+# Shokubutsu Studio (EULA)
+Assets/Shokubutsu Studio/
+
+# SciFiWarriorPBRHPPolyart (EULA)
+Assets/SciFiWarriorPBRHPPolyart/
+
+# VertexModeler (EULA)
+Assets/VertexModeler/
+
+# Stone Fountain (EULA)
+Assets/Stone Fountain/
+
+# Simple Cafe (EULA)
+Assets/Simple Cafe/
+
+# TD_Sci-Fi_Turret1_Example (EULA)
+Assets/TD_Sci-Fi_Turret1_Example/
+
+# danthaigames (EULA) - includes nested "DS Arcade Pack 01"
+Assets/danthaigames/
+
+# --- Unverified likely third-party (Asset Store style) folders ---
+# License not individually confirmed - flagged by name/structure
+# (readme/documentation files, publisher-style naming, or generic
+# "pack"/"freebie" naming) as probable Asset Store content.
+
+# Fantasy knight - full PBR character pack
+Assets/Fantasy knight/
+
+# Gumball_Machine - has Documentation/ folder
+Assets/Gumball_Machine/
+
+# PanoramicCartoonSkybox - has Readme.pdf
+Assets/PanoramicCartoonSkybox/
+
+# SkySeries Freebie - has Hdri setup.txt
+Assets/SkySeries Freebie/
+
+# SpaceZeta_PlasticTrashBins - publisher-style folder name
+Assets/SpaceZeta_PlasticTrashBins/
+
+# Low-Poly_Objects_Pack - generic pack name
+Assets/Low-Poly_Objects_Pack/
+
+# Arcade_Basketball_Blender - basketball prop set, Blender source
+Assets/Arcade_Basketball_Blender/
+
+# basketball-arcade-blend-free-low-poly-v10 - downloaded free asset (Sketchfab-style naming)
+Assets/basketball-arcade-blend-free-low-poly-v10/
+
+# General Mall NPCS - Ch22/Ch31/Ch41/Ch42 naming suggests a purchased character bundle
+Assets/General Mall NPCS/
+
+# jewelry_shop - unclear provenance, store-style content
+Assets/jewelry_shop/
+
+# MISCC - unclear provenance
+Assets/MISCC/

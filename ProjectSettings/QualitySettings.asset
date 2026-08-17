@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 1
+  m_CurrentQuality: 5
   m_QualitySettings:
   - serializedVersion: 3
     name: Very Low
@@ -29,6 +29,7 @@ QualitySettings:
     billboardsFaceCameraPosition: 0
     useLegacyDetailDistribution: 1
     vSyncCount: 0
+    realtimeGICPUUsage: 25
     lodBias: 0.3
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -43,7 +44,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: fd42a132493b1f143a4963adcd530ef1, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: e528b71ea94b84f4883320f8ebb51ee7, type: 2}
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -70,16 +71,17 @@ QualitySettings:
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
     anisotropicTextures: 1
-    antiAliasing: 4
+    antiAliasing: 0
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
     useLegacyDetailDistribution: 1
     vSyncCount: 0
+    realtimeGICPUUsage: 25
     lodBias: 0.4
     maximumLODLevel: 0
-    enableLODCrossFade: 0
+    enableLODCrossFade: 1
     streamingMipmapsActive: 0
     streamingMipmapsAddAllCameras: 1
     streamingMipmapsMemoryBudget: 512
@@ -91,7 +93,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: fd42a132493b1f143a4963adcd530ef1, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: 95465390f60f3df4382f77d993c7fe73, type: 2}
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -121,10 +123,11 @@ QualitySettings:
     antiAliasing: 0
     softParticles: 0
     softVegetation: 0
-    realtimeReflectionProbes: 0
+    realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 0
     useLegacyDetailDistribution: 1
     vSyncCount: 1
+    realtimeGICPUUsage: 50
     lodBias: 0.7
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -139,7 +142,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 5d8c1a083292ebe48a108756f3ebd11c, type: 2}
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -173,6 +176,7 @@ QualitySettings:
     billboardsFaceCameraPosition: 1
     useLegacyDetailDistribution: 1
     vSyncCount: 1
+    realtimeGICPUUsage: 50
     lodBias: 1
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -187,7 +191,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 8c1f1ed3ffe64d444b8e2b1123f56c0e, type: 2}
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -221,6 +225,7 @@ QualitySettings:
     billboardsFaceCameraPosition: 1
     useLegacyDetailDistribution: 1
     vSyncCount: 1
+    realtimeGICPUUsage: 50
     lodBias: 1.5
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -235,7 +240,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 6bc710b0351f69b43936695453c9d530, type: 2}
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -269,6 +274,7 @@ QualitySettings:
     billboardsFaceCameraPosition: 1
     useLegacyDetailDistribution: 1
     vSyncCount: 1
+    realtimeGICPUUsage: 100
     lodBias: 2
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -283,7 +289,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: cf6a652e94858004a93399f0a3dac507, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: e60279be4942fc14bacea45c35a72231, type: 2}
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1

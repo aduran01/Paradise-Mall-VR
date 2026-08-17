@@ -3,22 +3,33 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Anchor
+  - Tip
+  - Ball
+  - Basketball
+  - Floor
+  - Grocery Area
+  - Escalator Area
+  - Arcade Area
+  - Window Area
+  - turning
+  - validItem
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - NAV
+  - ignorepost
+  - Shelf
+  - Pickup
+  - Maze
+  - Ground
+  - HelpButton
+  - turning
   - 
   - 
   - 
@@ -40,4 +51,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 
+    uniqueID: 3538385729
     locked: 0
